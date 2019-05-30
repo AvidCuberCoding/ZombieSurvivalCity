@@ -1,0 +1,48 @@
+Welcome to zombie survival city!
+by Jim Shallcross
+
+This is a game i have coded from the ground up, following the KidsCanCode
+playlist for top down games. despite the size of the game and the simplicity,
+this took a lot of time and i'm very prideful of this.
+
+For anyone who doesn't have python installed, i am including a copy of python 3.6
+install.
+
+To install python 3.6 and it work with the game;
+
+1. Start Python install and start custom install
+
+2. leave the first page fully checked
+
+3. on the second page, leave everything that's checked checked, check
+'Add Python to environment variables', and leave the install location, but
+keep a copy of it on hand
+
+4. open the command prompt (go to the search bar and type cmd and press enter)
+
+5. to get pygame to work, you must install it, so type into the cmd prompt,
+'pip install pygame'
+
+6. there is two other pip installs you have to do, 'pip install pytmx' and
+'pip install pytweening'
+
+6a. if you come across an issue pip installing the modules, search 'environment'
+in your computer search bar and click on 'edit the system environment variables',
+click 'Environment Variables...', look at the bottom section and click on Path.
+
+inside of the Path, click New, and paste the path you got from your python install,
+and click New again, paste the path again, but add '\Scripts' to the end.
+
+after doing that, try pip installing, and it should work. to test if they are working,
+go to the cmd prompt and tpye in 'python', after your python ide is running in cmd,
+type 'import pygame' and if no error is returned, you are good to go!
+
+There is 2 maps in the maps folder, Map.tmx and Prison.tmx, to change the map,
+go to line 125 in the Main.py and change the 'name'.tmx to change the map.
+
+To move, you can use the arrow keys or wasd. to shoot, press Space. for the debug
+mode, press H. and to turn night mode on (which drops the frames by half), press N.
+
+open the main.py in python idle, run the program, and play!
+
+THANK YOU FOR PLAYING MY GAME AND WILLING TO READ THROUGH THIS WHOLE TXT FILE!!!!
